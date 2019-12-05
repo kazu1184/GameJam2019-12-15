@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         time = timeObj.GetComponent<TimeController>();
-        random = Random.Range(0, 2);
+        random = Random.Range(0, 3);
         Debug.Log(random);
         MenuSelection();
     }
