@@ -5,11 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public static int numberOfPeople = 3;
+
     [SerializeField]
     new GameObject[] gameObjectArray;
 
-    [SerializeField]
-    private int numberOfPeople = 0;
     [SerializeField]
     GameObject timeObj;
     TimeController time;
@@ -18,7 +18,8 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         time = timeObj.GetComponent<TimeController>();
-        random = Random.Range(0, 1);
+        random = Random.Range(0, 2);
+        Debug.Log(random);
         MenuSelection();
     }
 
