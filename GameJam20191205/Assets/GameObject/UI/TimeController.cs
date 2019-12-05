@@ -36,12 +36,6 @@ public class TimeController : MonoBehaviour
 
 
         timeText.text = "Time:" + time.ToString();
-
-        if (time <= 0)
-        {
-            // ToDo
-            // LoadScene
-        }
     }
 
     public int pTime
