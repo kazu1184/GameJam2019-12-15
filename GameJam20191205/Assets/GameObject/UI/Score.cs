@@ -6,9 +6,9 @@ using UnityEngine.UI;
 public class Score : MonoBehaviour
 {
     private static float score;
+    int showScore;
     [SerializeField]
     private Text scoreText;
-    int showScore;
 
     // Start is called before the first frame update
     void Start()
