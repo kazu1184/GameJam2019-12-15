@@ -6,9 +6,12 @@ public class CricleC : MonoBehaviour
 {
     readonly float max_size = 5.0f;
     readonly float min_size = 0.3f;
-    GameObject Cricle;
+
     Vector3 vel = new Vector3(-0.1f, -0.1f, 0);
 
+    [SerializeField]
+    GameObject scoreObj;
+    Score cScore;
     float score = 0;
     float getScore = 0;
 
@@ -25,7 +28,8 @@ public class CricleC : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        startScale = gameObject.transform.localScale;
+        startScale = circle.transform.localScale;
+        cScore = scoreObj.GetComponent<Score>();
     }
 
     // Update is called once per frame
@@ -64,6 +68,7 @@ public class CricleC : MonoBehaviour
 
                 getScore = max_size - X_now;
                 score += (max_size - X_now) * bonus;
+                cScore.pScore = score;
                 waitTimer = 3;
             }
 
