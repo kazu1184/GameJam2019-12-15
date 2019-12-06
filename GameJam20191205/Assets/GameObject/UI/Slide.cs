@@ -72,6 +72,8 @@ public class Slide : MonoBehaviour
                 //上向きにフリック
                 Direction = "up";
 
+                this.GetComponent<AudioSource>().Play();
+
                 lastDirectionY = directionY;
                 lastDirectionY *= 1;
             }
@@ -79,6 +81,8 @@ public class Slide : MonoBehaviour
             {
                 //下向きのフリック
                 Direction = "down";
+
+                this.GetComponent<AudioSource>().Play();
 
                 lastDirectionY = directionY;
                 lastDirectionY *= 1;
