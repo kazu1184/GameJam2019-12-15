@@ -5,8 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public static int numberOfPeople = 3;
-
     [SerializeField]
     new GameObject[] gameObjectArray;
 
@@ -14,9 +12,11 @@ public class GameManager : MonoBehaviour
     GameObject timeObj;
     TimeController time;
     int random = 0;
+    Data data;
     // Start is called before the first frame update
     void Start()
     {
+        data = Data.instance;
         time = timeObj.GetComponent<TimeController>();
         random = Random.Range(0, 3);
         Debug.Log(random);
@@ -28,8 +28,8 @@ public class GameManager : MonoBehaviour
     {
         if(time.pTime <= 0)
         {
-            numberOfPeople--;
-            if(numberOfPeople > 0)
+            data.Times--;
+            if(data.Times > 0)
             {
                 SceneManager.LoadScene("WorkoutScene");
             }
@@ -53,8 +53,8 @@ public class GameManager : MonoBehaviour
 
     public int Phase
     {
-        set { numberOfPeople = value; }
-        get { return numberOfPeople; }
+        set { data.Times = value; }
+        get { return data.Times; }
     }
 
     public int WorkoutMenu

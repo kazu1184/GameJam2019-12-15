@@ -21,6 +21,7 @@ public class Score : MonoBehaviour
     {
         showScore = (int)score;
         scoreText.text = "Score::"+ showScore.ToString();
+        Data.instance.Score = (int)score;
     }
 
     public float pScore
