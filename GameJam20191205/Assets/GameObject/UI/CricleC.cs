@@ -6,6 +6,7 @@ public class CricleC : MonoBehaviour
 {
     readonly float max_size = 5.0f;
     readonly float min_size = 0.3f;
+
     Vector3 vel = new Vector3(-0.1f, -0.1f, 0);
 
     [SerializeField]
