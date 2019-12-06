@@ -1,0 +1,234 @@
+fileFormatVersion: 2
+guid: d65a029be3db91947afea8ab9b6da51e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: group
+    100004: group1
+    100006: group10
+    100008: group11
+    100010: group2
+    100012: group4
+    100014: group5
+    100016: group6
+    100018: group7
+    100020: group8
+    100022: group9
+    100024: ikHandle1
+    100026: ikHandle2
+    100028: ikHandle3
+    100030: ikHandle4
+    100032: ikHandle5
+    100034: ikHandle6
+    100036: joint10
+    100038: joint11
+    100040: joint12
+    100042: joint13
+    100044: joint14
+    100046: joint15
+    100048: joint16
+    100050: joint17
+    100052: joint18
+    100054: joint19
+    100056: joint2
+    100058: joint20
+    100060: joint21
+    100062: joint22
+    100064: joint3
+    100066: joint4
+    100068: joint5
+    100070: joint6
+    100072: joint7
+    100074: joint8
+    100076: joint9
+    100078: pasted__group1
+    100080: pasted__group1 1
+    100082: pasted__group1 2
+    100084: pasted__group2
+    100086: pasted__group2 1
+    100088: pasted__pasted__group1
+    100090: pasted__pasted__group1 1
+    100092: pasted__pasted__pasted__pCylinder1
+    100094: pasted__pasted__pCylinder1
+    100096: pasted__pasted__pSphere1
+    100098: pasted__pCube2
+    100100: pasted__pCylinder1
+    100102: pasted__pCylinder2
+    100104: pasted__pSphere1
+    100106: pCube1
+    100108: pCube2
+    100110: pCylinder2
+    100112: root
+    400000: //RootNode
+    400002: group
+    400004: group1
+    400006: group10
+    400008: group11
+    400010: group2
+    400012: group4
+    400014: group5
+    400016: group6
+    400018: group7
+    400020: group8
+    400022: group9
+    400024: ikHandle1
+    400026: ikHandle2
+    400028: ikHandle3
+    400030: ikHandle4
+    400032: ikHandle5
+    400034: ikHandle6
+    400036: joint10
+    400038: joint11
+    400040: joint12
+    400042: joint13
+    400044: joint14
+    400046: joint15
+    400048: joint16
+    400050: joint17
+    400052: joint18
+    400054: joint19
+    400056: joint2
+    400058: joint20
+    400060: joint21
+    400062: joint22
+    400064: joint3
+    400066: joint4
+    400068: joint5
+    400070: joint6
+    400072: joint7
+    400074: joint8
+    400076: joint9
+    400078: pasted__group1
+    400080: pasted__group1 1
+    400082: pasted__group1 2
+    400084: pasted__group2
+    400086: pasted__group2 1
+    400088: pasted__pasted__group1
+    400090: pasted__pasted__group1 1
+    400092: pasted__pasted__pasted__pCylinder1
+    400094: pasted__pasted__pCylinder1
+    400096: pasted__pasted__pSphere1
+    400098: pasted__pCube2
+    400100: pasted__pCylinder1
+    400102: pasted__pCylinder2
+    400104: pasted__pSphere1
+    400106: pCube1
+    400108: pCube2
+    400110: pCylinder2
+    400112: root
+    2100000: phongE4
+    2100002: pasted__phong3
+    2100004: pasted__pasted__phong3
+    2100006: phongE3
+    2100008: pasted__pasted__phong10
+    2100010: pasted__pasted__pasted__phong4
+    2300000: pasted__pasted__pasted__pCylinder1
+    3300000: pasted__pasted__pasted__pCylinder1
+    4300000: pCube1
+    4300002: pasted__pSphere1
+    4300004: pasted__pasted__pSphere1
+    4300006: pasted__pCylinder1
+    4300008: pasted__pasted__pCylinder1
+    4300010: pCylinder2
+    4300012: pasted__pCylinder2
+    4300014: pasted__pasted__pasted__pCylinder1
+    4300016: pCube2
+    4300018: pasted__pCube2
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: pasted__pasted__pCylinder1
+    13700002: pasted__pasted__pSphere1
+    13700004: pasted__pCube2
+    13700006: pasted__pCylinder1
+    13700008: pasted__pCylinder2
+    13700010: pasted__pSphere1
+    13700012: pCube1
+    13700014: pCube2
+    13700016: pCylinder2
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+
 public class InputExample : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -23,6 +24,8 @@ public class InputExample : MonoBehaviour
         //InputFieldのTextコンポーネントを取得
         Text inputText = GameObject.Find("InputField/Text").GetComponent<Text>();
 
+        Data data = Data.instance;
+
         //Text型をstring型に変換
         string name = inputText.text;
 
@@ -30,14 +33,17 @@ public class InputExample : MonoBehaviour
         {
             case "1":
                 Debug.Log(name + "player");
+                data.Times = 1;
                 SceneManager.LoadScene("WorkoutScene");
                 break;
             case "2":
                 Debug.Log(name + "player");
+                data.Times = 2;
                 SceneManager.LoadScene("WorkoutScene");
                 break;
             case "3":
                 Debug.Log(name + "player");
+                data.Times = 3;
                 SceneManager.LoadScene("WorkoutScene");
                 break;
             default:

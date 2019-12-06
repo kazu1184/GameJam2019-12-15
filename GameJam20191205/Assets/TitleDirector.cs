@@ -16,7 +16,7 @@ public class TitleDirector : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            SceneManager.LoadScene("WorkoutScene");
+            SceneManager.LoadScene("Select");
         }
     }
 }
