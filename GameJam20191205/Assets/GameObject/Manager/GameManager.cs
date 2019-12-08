@@ -7,6 +7,8 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField]
     new GameObject[] gameObjectArray;
+    [SerializeField]
+    GameObject[] modelArray = new GameObject[3];
 
     [SerializeField]
     GameObject timeObj;
@@ -18,7 +20,8 @@ public class GameManager : MonoBehaviour
     {
         data = Data.instance;
         time = timeObj.GetComponent<TimeController>();
-        random = Random.Range(0, 3);
+        //random = Random.Range(0, 3);
+        random = 1;
         Debug.Log(random);
         MenuSelection();
     }
@@ -48,6 +51,12 @@ public class GameManager : MonoBehaviour
                 gameObjectArray[i].SetActive(true);
             else
                 gameObjectArray[i].SetActive(false);
+
+            if (random == i)
+                modelArray[i].SetActive(true);
+            else
+                modelArray[i].SetActive(false);
+
         }
     }
 
