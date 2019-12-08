@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyPower : MonoBehaviour
 {
     int power;
-    int[] range = { 10, 51 };
+    int[] range = { 10, 100 };
 
     // Start is called before the first frame update
     void Start()
